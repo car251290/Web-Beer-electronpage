@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Hello I am Javier!</title>
+  </head>
+  <body>
+    <h1>Hello I am Javier!</h1>
+    <h2>Beer-Images</h2>
+    <p><strong>the best beers:</strong></p>
+
+    <li>Victoria</li>
+    <li>Corona</li>
+    <li>IPA</li>
+
+    <div className="beer">
+      <div class="victoria">
+        <text>"I am victoria Beer one of the best dark beers in Mexico"</text>
+        <img
+          src="image/victoria.jpg"
+          style="float: right; width: 42px; height: 42px;"
+          alt="victoria"
+        />
+      </div>
+      <div class="corona">
+        <text>"I am corona beer" one of the best beer in Mexico</text>
+
+        <img
+          src="image/coronabeer.jpg"
+          style="float: right; width: 42px; height: 42px;"
+          alt="GOOD"
+        />
+      </div>
+      <div class="IPA">
+        <text>
+          "I am IPA" one of the best beer in Canada
+        </text>
+
+        <img src="image/IPA.png" alt="GOOD beers" />
+      </div>
+      <div class="home">
+        "Hello to beers"
+        <img
+          src="image/home.jpg"
+          style="float: right; width: 42px; height: 42px;"
+          alt="GOOD beers"
+        />
+      </div>
+    </div>
+
+    <style>
+      image {
+        width: 10px;
+        height: 40px;
+        position: absolute;
+        background-color: maroon;
+      }
+    </style>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    //the new js for the beer
+    <script src="./Beer.js"></script>
+  </body>
+</html>
