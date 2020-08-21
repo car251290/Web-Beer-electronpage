@@ -8,11 +8,14 @@ const beer =() => {
 
 return (
     <View>
-         <img style={{color: '#fff',fontSize:40,flex: .5,alignContent:'center'}}
+        <header>
+        <img style={{color: '#fff',fontSize:40,flex: .5,alignContent:'center'}}
           src="image/coronabeer.jpg"
           style="float: right; width: 42px; height: 42px;"
           alt="GOOD"
         />
+        </header>
+        
     </View>
    
 )
