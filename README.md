@@ -1,4 +1,5 @@
-# electron-quick-start
+## Electron js
+
 ## Understanding why is electron important to get Web applications 
 using React to get web application and continue,learning new tools
 with React.
